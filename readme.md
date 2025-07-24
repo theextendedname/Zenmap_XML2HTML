@@ -24,7 +24,7 @@ Before running the script, ensure you have:
 ## **💡 How to Use**
 
 1. Save the Script:  
-   Save the PowerShell script provided (e.g., Convert-NmapXmlToHtml.ps1) to a location on your computer.  
+   Save the PowerShell script provided (e.g., Convert-NmapXml2Html.ps1) to a location on your computer.  
 2. Open PowerShell:  
    Navigate to the directory where you saved the script using the cd command.  
    cd C:\\Path\\To\\Your\\Script
@@ -35,18 +35,18 @@ Before running the script, ensure you have:
    You can run the script with different arguments:  
    * Basic Usage (Input XML only):  
      The script will convert my\_scan.xml and save the output as my\_scan.html in the same directory.  
-     .\\Convert-NmapXmlToHtml.ps1 my\_scan.xml
+     .\\Convert-NmapXml2Html.ps1 my\_scan.xml
 
    * Specify Input and Output HTML File:  
      Convert input.xml and save the output to a specific output\_report.html file.  
-     .\\Convert-NmapXmlToHtml.ps1 C:\\scans\\input.xml C:\\reports\\output\_report.html
+     .\\Convert-NmapXml2Html.ps1 C:\\scans\\input.xml C:\\reports\\output\_report.html
 
    * Specify Input and a Custom XSL Stylesheet Path:  
      Use a custom.xsl file located elsewhere to transform another\_scan.xml.  
-     .\\Convert-NmapXmlToHtml.ps1 .\\another\_scan.xml \-LocalXslPath 'D:\\MyStylesheets\\custom.xsl'
+     .\\Convert-NmapXml2Html.ps1 .\\another\_scan.xml \-LocalXslPath 'D:\\MyStylesheets\\custom.xsl'
 
    * **Combine all options:**  
-     .\\Convert-NmapXmlToHtml.ps1 C:\\data\\raw\_scan.xml C:\\output\\final\_report.html \-LocalXslPath 'C:\\Program Files (x86)\\Nmap\\nmap.xsl'
+     .\\Convert-NmapXml2Html.ps1 C:\\data\\raw\_scan.xml C:\\output\\final\_report.html \-LocalXslPath 'C:\\Program Files (x86)\\Nmap\\nmap.xsl'
 
 ## **⚠️ Important Notes**
 
@@ -64,6 +64,3 @@ Before running the script, ensure you have:
   * Verify that your Nmap XML output file is well-formed.  
   * Ensure your nmap.xsl file is not corrupted.
 
-## **📄 License**
-
-This project
