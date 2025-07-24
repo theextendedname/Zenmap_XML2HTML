@@ -1,6 +1,6 @@
 # **Nmap XML to HTML Converter**
 
-This PowerShell script provides a convenient way to transform Nmap XML output files into human-readable HTML reports using the official Nmap XSL stylesheet. This is the standard and most robust method for viewing Nmap scan results in a web browser.
+This PowerShell script provides a convenient way to transform Nmap XML output files into human-readable HTML reports using the official Nmap XSL stylesheet. 
 
 **For Zenmap users on Windows, this script is particularly useful as Zenmap does not offer a direct option to save scan results as HTML. It allows you to easily convert your .xml output files into more manageable and viewable .html reports.**
 
